@@ -3,6 +3,7 @@ import heroImg from "../images/hero.jpg";
 import About from "./About";
 import Portfolio from "./Portfolio";
 import Services from "./Services";
+import NumberSection from "./NumberSection";
 import Testimonial from "./Testimonial";
 
 const Home = () => {
@@ -41,6 +42,7 @@ const Home = () => {
 
       <About/>
       <Portfolio />
+      <NumberSection />
       <Services />
       <Testimonial />
     </>
