@@ -580,4 +580,5 @@ figure img {
   width: 60px;
   margin-bottom: 20px;
   border-radius: 50%;
+  border: 3px solid #9fa8f7;
 }
