@@ -56,12 +56,12 @@ const About = () => {
                   <span>30%</span>
                 </div>
               </div>
-
-             
             </div>
             <div className="bio-data-btn">
-                <a type="button" href="/" className="btn">download cv</a>
-              </div>
+              <a type="button" href="/" className="btn">
+                download cv
+              </a>
+            </div>
           </div>
         </div>
       </section>

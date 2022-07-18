@@ -11,12 +11,6 @@ const Portfolio = () => {
   const onclick = (index) => {
     setToggleState(index);
   };
-  // useCountUp({
-  //   ref: "counter2",
-  //   end: 6000,
-  //   enableScrollSpy: true,
-  //   scrollSpyDelay: 0
-  // });
   return (
     <>
       <div className="section section-portfolio">

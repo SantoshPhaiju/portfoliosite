@@ -5,6 +5,8 @@ import Portfolio from "./Portfolio";
 import Services from "./Services";
 import NumberSection from "./NumberSection";
 import Testimonial from "./Testimonial";
+import Freelancing from "./Freelancing";
+import Contact from "./Contact";
 
 const Home = () => {
   return (
@@ -18,6 +20,7 @@ const Home = () => {
               <h1 className="hero-heading">SANTOSH PHAIJU</h1>
               <p className="hero-para">
                 {" "}
+                {/* <i class="fas fa-quote-left"></i> */}
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus,
                 voluptas. Quas consectetur deleniti soluta sed error provident
                 labore molestias, doloribus vero aliquam!
@@ -40,11 +43,13 @@ const Home = () => {
         </section>
       </main>
 
-      <About/>
+      <About />
       <Portfolio />
       <NumberSection />
       <Services />
       <Testimonial />
+      <Freelancing />
+      <Contact />
     </>
   );
 };

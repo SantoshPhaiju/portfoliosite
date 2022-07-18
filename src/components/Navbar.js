@@ -7,10 +7,11 @@ const Navbar = () => {
     <>
       <header className="header">
         <div className="logo-div">
-        <img className="logo" src={logo} alt="logo here" />
+          <img className="logo" src={logo} alt="logo here" />
           <h2>My Portfolio</h2>
         </div>
-        <nav className="navbar">
+        
+        <nav className="navbar" >
           <ul className="navbar-list">
             <li>
               <Link className="navbar-link home-link" to="/">
@@ -37,8 +38,15 @@ const Navbar = () => {
                 Contact
               </Link>
             </li>
+            <li>
+              <Link className="navbar-link contact-link" to="/media">
+                Media
+              </Link>
+            </li>
           </ul>
         </nav>
+
+       
       </header>
     </>
   );
